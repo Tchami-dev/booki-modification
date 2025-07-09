@@ -1,0 +1,676 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: "raleway", sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+header,main{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.imad,.imag,.iam,.iams{
+    object-fit: cover;  
+}
+
+ /****************************** css lié au header *********************************************/
+header, .div__header{
+     height: 100px; 
+     width:98%; 
+    background-color: #fff;
+}
+
+.div__logo{
+    float: left;   
+}
+
+.div__navigation--liens{
+    width: 125px;
+    height: 50%;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.div__navigation{
+   
+    float: right;
+    height: 90%;
+    width: 20%;
+}
+
+nav ul{
+    display:inline-flex;
+    flex-direction: row;
+    gap: 20%;
+
+}
+
+
+nav li{
+    list-style-type: none;
+    
+}
+
+nav a{
+    color:#000;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.div__navigation--liens:hover{
+    border-top: 3px solid #0065fc;
+    
+}
+
+nav a:hover{
+    color:#0065fc;
+}
+
+/***************************** css lié à la section du préambule *********************************/
+
+.besoins{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+.div__besoins{
+    width: 100%;
+    height: 100%;
+}
+
+/* barre-de-recherche */
+.div__barre-de-recherche{
+    display: inline-flex;  
+    padding: 0px;
+    margin: 0px;
+    width: 30%;
+    height: 50px; 
+    border: #f2f2f2 solid 0.5px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.adresse, .recherche, .pointeur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.adresse{
+    width: 50%;
+}
+
+.pointeur{
+    background-color: #f2f2f2;
+    width: 20%;
+}
+
+.recherche{
+    color: #fff;
+    background-color: #0065fc;
+    width: 30%;
+   
+}
+
+.saisie-recherche{
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+/* zone-des-filtres */
+
+.filtre{
+    margin: 0%;
+    padding: 0%;
+    height: 35px;
+    display: inline-flex; 
+     font-size: 1em;
+    font-weight: bolder;
+    gap: 2%;
+    }
+
+    .types__filtres{
+    border: #f2f2f2 solid 2px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 20px;
+    
+    
+}
+
+.representation__visuelle{
+    float: left;
+    background-color: #deebff;
+    width: 30px;
+    height: 100%;
+    border-radius: 100px;
+}
+
+.types__filtres,.representation__visuelle, .presentation__type {
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation__types--filtres{
+    text-align: right;
+}
+
+.icone--filtre{
+    color: #0065fc;
+}
+
+.types__filtres:hover{
+    box-shadow: #deebff 5px 5px 3px;
+    background-color: #0065fc;
+    color: #fff;
+}
+
+/* phrase-introductive-au-marcketing */
+
+.pub{
+    height: 50px;
+    width: 500px;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.div__icone--info{
+    border: #deebff solid 2px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;  
+}
+
+.icone__info{
+    color: #0065fc;
+    font-size: 1em;
+}
+
+.publicite, .div__icone--info{
+    display: inline-flex;
+}
+
+/***************************************** pied-de-page ******************************************/
+
+footer{
+    height: 200px;
+    background-color: #deebffa4;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    width: 100%;
+    
+    
+
+}
+
+.foot{
+    height: 180px;
+    width: 100%;
+    padding: 0px;
+    display: inline-flex;
+    flex-direction: row;
+    gap: 10%;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.col1, .col2, .col3{
+    display: inline-block;
+    font-size: 1em;
+    /* padding:30px ; */
+}
+
+/********************************** section-des-hébergements  ****************************/
+
+.section__principale--hebergement{
+    height: auto; 
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: #b62b2b solid 1px;
+    /* display:flex;  */
+}
+
+.div__principale--hebergement{
+    height:auto;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: #b62b2b solid 1px;
+}
+
+/* hébergement de la gauche */
+
+.section__hebergement--gauche{
+    width: 70%; 
+    border: #000 solid 1px;
+    float: left; 
+}
+
+.div__hebergement--gauche{
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    display: flex; 
+    border: #000 solid 1px;
+    flex-direction: row;
+    gap:30px;
+    flex-wrap: wrap;
+    padding: 2%;
+
+    
+}
+
+.article_hebergement-gauche{
+    display: flex;
+}
+
+.div-article_hebergement-gauche{
+    
+    height: 280px;
+    width: 305px;
+    border: #fff solid 3px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 20px;   
+    background-color: #fff; 
+    overflow: hidden;
+    
+}
+
+
+.imag{
+    
+    height: 170px;
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 2px; 
+    padding-left: 2px; 
+    display: inline;
+    
+
+}
+
+.d-info{
+height:100px;
+width: 250px;
+display: flex;
+flex-direction: column;
+gap: 15px;
+margin: 0px;
+
+}
+
+.d-inf {
+   display: inline;  
+   height: auto;
+   width: 100%;
+   padding-left: 10px;
+}
+
+.et{
+    color: #0065fc;
+    padding: 0px;
+    margin: 0px;
+}
+
+.et-q,.et-c{
+    color: #f2f2f2;
+}
+
+h3, .p-info{
+    width: 100%;
+    height: 10px;
+    padding-left: 10px;
+}
+
+.p-info{
+    font-size:20px;
+}
+
+.h3{
+    font-size: 35px;
+}
+
+.zone__hebergement{
+    display: inline-flex;
+    
+}
+
+/* hébergements de la droite */
+
+
+
+.eu{
+    float: right;
+    display: inline;
+    padding-right: 50px;
+}
+
+.section__hebergement--droite{
+    border: #05f611 solid 1px;
+    float: right; 
+    width: 27%; 
+
+    }
+    
+    .div__hebergement--droite{
+    border-radius: 20px;
+    background-color: #f2f2f2;
+     border: #05f611 solid 1px;
+     /* display: flex; */
+    flex-direction: column; 
+    gap: 30px;
+}
+
+.d-ahd{
+    flex-direction: column;
+    height: 170px;
+    width: 95%;
+    border: #fff solid 3px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 20px;  
+    background-color: #fff;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.d-ahd, .d-ahg, .di-am,.ds-ams{
+    box-shadow: #e0dfdf 5px 5px 8px;
+    
+}
+
+.imad{
+    height: 165px;
+    width: 150px;
+     border-bottom-left-radius: 20px;  
+    border-top-left-radius: 20px;  
+   
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+
+.d-imad{
+    float: left;
+    padding: 2px;
+}
+
+.d-infod{
+    float: right;
+    width: 195px;
+    height: 130px;
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
+
+.p-infd{
+    padding-top: 40px;
+    height: 20px;
+}
+
+.pp,.h-mar{
+    font-size: 1.2em;
+    float: left; 
+}
+
+
+/******************************************* section-des-activites ******************************/
+
+.h-am{
+    display: inline;
+    height: 30px;
+    text-align: left;
+}
+
+.sp-am{
+    height:700px;
+    width:100%;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.dp-am{
+    justify-content: space-between;
+    height: 99%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    /* flex-direction: row; */
+}
+
+.ar-am{
+    
+    height: 400px; 
+    width: 350px; 
+    padding: 0px;
+    margin: 0px; 
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.di-am{
+    height: 473px;
+    width: 305px;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 3px;
+    border-radius: 30px; 
+    background-color: transparent;
+    gap:30px;
+}
+
+.iam{ 
+    height: 430px;
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.Détail{
+     height: 30px; 
+    width:305px; 
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px;
+}
+
+.d-imam{
+    height: 435px;
+    width: 305px;
+    margin: 0px;
+    padding: 0px;   
+}
+
+/* activité dupliquée */
+
+.d-imams{
+    height: 200px;
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.iams{
+    height: 195px;
+    width: 315px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.Détails{
+    height: 30px;
+    width: 285px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px; 
+    text-align: left;
+    
+}
+
+.ds-ams{
+    padding-bottom: 20px;
+    height:220px;
+    width: 315px;
+    border-radius: 30px;
+    flex-direction: column;
+}
+
+.di-ams{
+    padding: 0px;
+    margin: 0px;
+    /* gap:50px; */
+
+}
+
+/**************************** partie-responsive-du-projet ***************************/
+
+/*********** Téléphones et p.Laptop  *******/
+
+/*@media screen and (max-width:1024px){
+
+    *{
+        padding:0 auto;
+        margin: 0 auto;
+    }
+    
+    
+    header{
+        width: 100%;
+        height: 100%; 
+        margin: 0px;
+        padding: 0px;
+        display: flex;  
+        flex-direction: column; 
+    }
+
+    
+
+    .div__barre-de-recherche{
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+
+    .div__principale--hebergement{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .filtre{
+        width: 100%;
+        height: 200px;
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    .presentation__types--filtres{
+        height: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+   .section__principale--hebergement, .section__hebergement--droite,.section__hebergement--gauche{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+   
+   }
+
+    .div__hebergement--gauche,.div__hebergement--droite{
+        width: 95%;
+        height: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+
+    .ahd,.ahg{
+        width: 100%;
+        height:20%;
+        display: block;
+        flex-direction: column;
+    }
+
+    .d-ahg{
+        width: 95%;
+        height:15%;
+    }
+
+
+    .imag, .d-imag{
+        width: 100%;
+    }
+
+    .sp-am,.dp-am{
+        width: 100%;
+        height: 80%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        display:inline-block;
+    }
+
+    .d-imad{
+        width:50%;
+    }
+
+    .d-infod{
+        width: 40%;
+
+    }
+
+    .imad{
+        width: 100%;
+    }
+
+       
+        width:90%;
+        height:500px;
+    }
+
+    .foot{
+        width: 100%;
+        height: 100%;
+        display: block;
+        flex-direction: column;
+
+    }
+
+    .col1,.col2, .col3{
+        display: inline-block;
+        width: 90%;
+        height: 100px;
+        flex-direction: column;
+    }
+
+   .publicite{
+    display: inline-flex;
+   }
+}*/
+
