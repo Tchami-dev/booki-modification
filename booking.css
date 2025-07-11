@@ -27,6 +27,7 @@ header, .div__header{
 }
 
 .div__logo{
+    display: flex;
     float: left;   
 }
 
@@ -38,7 +39,7 @@ header, .div__header{
 }
 
 .div__navigation{
-   
+   display: flex;
     float: right;
     height: 90%;
     width: 20%;
@@ -244,6 +245,7 @@ footer{
     display:flex;     
     overflow: hidden;
     justify-content: flex-start;
+    border: #d20909 solid 1px;
 }
 
 .div__principale--hebergement{
@@ -253,6 +255,7 @@ footer{
     padding: 0px;
     display:flex;
     gap: 30px;
+    border: #da1e1e solid 1px;
 }
 
 /* hébergement de la gauche */
@@ -451,74 +454,76 @@ h3, .p-info{
 
 /******************************************* section-des-activites ******************************/
 
-.h-am{
-    display: inline;
-    height: 30px;
-    text-align: left;
-}
+
 
 .sp-am{
-    height:700px;
+    height:auto;
     width:100%;
-    padding: 0px;
     margin: 0px;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    display: flex;
+    border: #000 solid 1px;
 }
 
 .dp-am{
-    justify-content: space-between;
-    height: 99%;
+    gap: 30px;
+    flex-direction: row;
+    height: 90%;
     width: 100%;
     padding: 0px;
     margin: 0px;
-    display: inline-block;
+    display: flex;
+    border: #000 solid 1px;
+    justify-content: left;
 }
 
 .ar-am{
     
-    height: 400px; 
-    width: 350px; 
+    height: auto; 
+    width: auto; 
     padding: 0px;
     margin: 0px; 
     padding-top: 30px;
-    display: inline-block;
+    display: flex;
+    border: solid 1px yellowgreen;
 }
 
 .di-am{
-    height: 473px;
-    width: 305px;
+    height: 100%;
+    width: 100%;
     padding: 0px;
     margin: 0px;
-    padding-top: 3px;
     border-radius: 30px; 
+    overflow:hidden;
     background-color: transparent;
     gap:30px;
+    border: solid 1px yellowgreen;
 }
 
 .iam{ 
-    height: 430px;
-    width: 300px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    height: 100%;
+    width: 100%;
+    
     
 }
 
 .Détail{
-     height: 30px; 
-    width:305px; 
+     height: 10%; 
+    width:100%; 
     padding: 0px;
     margin: 0px;
     text-align: left;
-    border-bottom-left-radius:20px;
-    border-bottom-right-radius: 20px;
+    padding-top: 3%;
+    align-items: center;
+    border: solid 1px orange;
 }
 
 .d-imam{
-    height: 435px;
-    width: 305px;
+    height: 90%;
+    width: 100%;
     margin: 0px;
-    padding: 0px;   
+    padding: 0px;
+    display:flex;   
+    border: solid 1px rgb(0, 119, 255);
 }
 
 /* activité dupliquée */
@@ -540,8 +545,6 @@ h3, .p-info{
 .Détails{
     height: 30px;
     width: 285px;
-    border-bottom-left-radius:20px;
-    border-bottom-right-radius: 20px; 
     text-align: left;
     
 }
@@ -555,8 +558,9 @@ h3, .p-info{
 }
 
 .di-ams{
-    padding: 0px;
-    margin: 0px;
+    height:100%;
+    width: 100%;
+    border: solid 1px #d410de
     /* gap:50px; */
 
 }
